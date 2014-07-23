@@ -1,0 +1,9 @@
+*.tif
+*.shp
+*.shx
+*.dbf
+*.prj
+*.qpj
+*~
+*.zip
+tmp/

@@ -1,0 +1,69 @@
+#!/bin/bash
+
+# Author: Bruno Combal
+# Date: June 2014
+
+shopt -s nullglob
+shopt -s dotglob
+
+path=/data/public_store/lmes_nutrients
+rsrcDir=${path}/rsrc
+shpDir=/data/public_store/nutrients/
+dataOrg=${path}/data/LME_NEWSRH2000_Nutrients_and_ICEP.csv
+outdir=${path}/
+tmpdir=${path}/tmp
+dataOut=${tmpdir}/${dataOrg##*/}
+mkdir -p ${tmpdir}
+
+# some operations should be done manually, including deleting the tmp directory and update information files
+chktmp=(${tmpdir}/*)
+if [ ${#chktmp[*]} -ne 0 ]; then echo "please clean tmp directory and update information files"; exit 1; fi
+
+# transform original file
+header='LME number; STN basin count; DIN (Tg/yr); DON (Tg/yr); PN (Tg/yr); DIP (Tg/yr); DOP (Tg/yr); PP (Tg/yr); Dis-SI (Tg/yr); ICEP (kg.C.km-2.day-1); N-ICEP (kg.C.km-2.day-1); P-ICEP (kg.C.km-2.day-1)'
+echo ${header} > ${dataOut}
+tail -n+3 ${dataOrg} >> ${dataOut} #remove the two first lines
+sed -i 's/;/,/g' ${dataOut} # replace ; with ,
+
+# copy shapefiles
+for ii in shp shx prj qpj dbf
+do
+    cp ${shpDir}/nutrients_icep_LMES66.${ii} ${tmpdir}
+done
+
+# copy snapshots
+
+# copy information files
+# rule: all files last change must be from the same day. Else, require the user to update them
+memoDay='None'
+for ii in readme.txt version.txt lmes_nutrients_xml_iso19139.xml productDescription_lmes_nutrients.txt 
+do
+    if [ ! -e "${ii}" ]; then
+	echo "information file ${ii} does not exist. Exit."
+	exit 3
+    fi
+
+    thisDay=$(stat ${rsrcDir}/${ii} |grep Change | cut -d ' ' -f 2)
+    if [ "${memoDay}" != 'None' ]; then
+	if [ "${thisDay}" != "${memoDay}" ]; then
+	    echo "Found information files with different last update day."
+	    echo "Please review information files and run again this building script."
+	    exit 2
+	fi
+    fi
+    cp ${rsrcDir}/${ii} ${tmpdir}
+done
+
+version=$(cat ${tmpdir}/version.txt | grep -i version | head -n 1 | cut -d ':' -f 2 | tr -d '[:space:]')
+
+if [ -n "${version}" ]; then
+    archiveName=lmes_nutrients_${version}.zip
+else
+    archiveName=lmes_nutrients.zip
+fi
+
+# zip all files
+rm -f ${archiveName}
+find ${tmpdir} -name "*" | zip -@ ${outdir}/${archiveName}
+
+# end of script

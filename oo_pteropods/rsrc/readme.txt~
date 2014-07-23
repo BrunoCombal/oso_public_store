@@ -1,0 +1,40 @@
+Transboundary Water Assessment Program (GEF funded project)
+Marine component (Open Ocean and Large Marine Ecosystems): http://onesharedocean.org
+TWAP: www.gettwap.org
+
+Product: LMEs nutrients and ICEP
+
+Package content:
++ readme.txt: this file
++ version.txt: current version and history of changes
++ productDescription.txt: scientific description of the dataset
++ metainformation.xml: ISO 19139 formatted file, with among others, the contact points
+see http://onesharedocean.org/?q=data in LMEs section, product nutrients, for a human readable version.
++ snapshots: some datasets visualisation
++ datasets, described in the next section.
+
+datasets:
++ LME_NEWSRH2000_Nutrients_and_ICEP.csv
+A comma separated data file, with 1 line per LME.
+For each line:
+LME number: the LME code number, from 1 to 66
+STN basin count: tbd
+DIN: (Tg/year)
+DON: (Tg/year)
+PN: (Tg/year)
+DIP: (Tg/year)
+DOP: (Tg/year)
+PP: (Tg/year)
+Dis-SI: (Tg/year)
+Qact: (km3/year)
+N:P molar ratio: 
+ICEP: (kg.C.km-2.day-1)
+N-ICEP: (kg.C.km-2.day-1)
+P-ICEP: (kg.C.km-2.day-1)
+
++ nutrients_icep_LMES66.shp
+A shapefile of the LMEs (66 LMEs), with same data set as in LME_NEWSRH2000_Nutrients_and_ICEP.csv
+
+
+
+--- end of file ---
