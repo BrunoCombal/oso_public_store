@@ -17,7 +17,7 @@ chktmp=(${tmpdir}/*)
 if [ ${#chktmp[*]} -ne 0 ]; then echo "please clean tmp directory and update information files"; exit 1; fi
 
 # species
-species=('creiseis' 'l_helicina' 'l_retroversa')
+species=('creseis' 'l_helicina' 'l_retroversa')
 rcps=('rcp45' 'rcp85')
 decades=('2010' '2030' '2050')
 
@@ -54,9 +54,9 @@ do
 	    version=$(cat ${tmpdir}/version.txt | grep -i version | head -n 1 | cut -d ':' -f 2 | tr -d '[:space:]')
 	    
 	    if [ -n "${version}" ]; then
-		archiveName=oo_${ispecies}_${idecade}_${ircp}_${version}.zip
+		archiveName=${path}/oo_${ispecies}_${idecade}_${ircp}_${version}.zip
 	    else
-		archiveName=oo_${ispecies}_${idecade}_${ircp}.zip
+		archiveName=${path}/oo_${ispecies}_${idecade}_${ircp}.zip
 	    fi
 	    
             # zip all files
