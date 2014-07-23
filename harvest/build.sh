@@ -4,7 +4,9 @@
 # date: July 2014
 
 harvestDir='/data/public_store/harvest/'
-declare -A repoList=(['oo']='climatechange/sea_ice climatechange/tos climatechange/warmpool cumulative_impact debris mesozooplankton oo_benthicbiomaschange oo_dhm oo_fisheries oo_fisheries_futurecatch oo_plastics oo_warmpool slr_impact socio_eco' ['lmes']='lmes_chla lmes_chla_hdf lmes_chla_mean lmes_corals lmes_fisheries lmes_icep lmes_mangroves lmes_nutrients lmes_plastics_modeldistribution lmes_pp lmes_ppd_longterm lmes_productivity lmes_sst nutrients')
+declare -A repoList=(['oo']='oo_sea_ice oo_warmpool cumulative_impact debris mesozooplankton oo_benthicbiomaschange oo_dhm oo_fisheries oo_fisheries_futurecatch oo_plastics oo_pteropods oo_warmpool slr_impact socio_eco' ['lmes']='lmes_chla lmes_chla_hdf lmes_chla_mean lmes_corals lmes_fisheries lmes_icep lmes_mangroves lmes_nutrients lmes_plastics_modeldistribution lmes_pp lmes_ppd_longterm lmes_productivity lmes_sst nutrients')
+
+
 
 function getXML(){
     dataDir='/data/public_store'
