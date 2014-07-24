@@ -54,14 +54,17 @@ do
 	    version=$(cat ${tmpdir}/version.txt | grep -i version | head -n 1 | cut -d ':' -f 2 | tr -d '[:space:]')
 	    
 	    if [ -n "${version}" ]; then
-		archiveName=${path}/oo_${ispecies}_${idecade}_${ircp}_${version}.zip
+		archiveName=oo_${ispecies}_${idecade}_${ircp}_${version}.zip
 	    else
-		archiveName=${path}/oo_${ispecies}_${idecade}_${ircp}.zip
+		archiveName=oo_${ispecies}_${idecade}_${ircp}.zip
 	    fi
 	    
             # zip all files
 	    rm -f ${archiveName}
-	    find ${tmpdir} -name "*" | zip -@ ${outdir}/${archiveName}
+	    find ${tmpdir} -name "*" | zip -@ -j ${outdir}/${archiveName}
+
+	    # rm data in tmp
+	    rm -f ${tmpdir}/*
 	    
 	done
     done
