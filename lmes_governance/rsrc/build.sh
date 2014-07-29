@@ -25,7 +25,7 @@ done
 # copy information files
 # rule: all files last change must be from the same day. Else, require the user to update them
 memoDay='None'
-for ii in readme.txt version.txt productDescription_governance.txt 
+for ii in readme.txt version.txt productDescription_governance.txt lmes_governance_xml_iso_19139.xml
 do
     if [ ! -e "${ii}" ]; then
 	echo "information file ${ii} does not exist. Exit."
@@ -49,7 +49,7 @@ version=$(cat ${tmpdir}/version.txt | grep -i version | head -n 1 | cut -d ':' -
 if [ -n "${version}" ]; then
     archiveName=lmes_governance_${version}.zip
 else
-    archiveName=lmes_governance_.zip
+    archiveName=lmes_governance.zip
 fi
 
 # zip all files
