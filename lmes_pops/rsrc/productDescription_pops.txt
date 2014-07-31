@@ -1,0 +1,37 @@
+POPs: DTDs, HCHs and PCBs scores
+
+Category: 
+Pollution
+
+Definition:
+Concentration of POPs in beached plastic resin pellets.
+
+Unit:
+ng.g-1
+
+Rationale for inclusion:
+Plastic resin pellets are ubiquitous in coastal waters, derived primarily from accidental releases of pellets during transport or trans-shipment, and from their use in a number of industrial and consumer applications. The pellets absorb hydrophobic compounds such as POPs present in the surrounding seawater, with a concentration factor of up to 1,000,000 (Smeddes and others, 2009)
+
+Interlinkages with other transboundary water systems:
+Concentrations of POPs in LMEs indicate variations in land-use and industrial development in the adjoining catchments, and are relevant to rivers. In addition there is evidence for the export of pellets to the open ocean (Lohman and others, 2010).
+Measurement methods and calculation
+Collection of beached resin pellets by volunteers and agencies and analysis at suitable analytical laboratory (e.g., Tokyo university of Agriculture & Technology). The pellet analysis provides a semi-quantitative indicator of pollution state in seawater, as there is limited control of the "age" of the particle, and hence the available equilibration time.
+
+Scale:
+LME or subregion
+
+Data sources:
+The International Pellet Watch programme has established a global network of volunteers who collect pellets from beaches and send them to a single laboratory for analysis (Ogata and others 2009). The results are sent to the collectors and made available on the programme website www.pelletwatch.org
+
+Agencies & contacts:
+International Pellet Watch www.pelletwatch.org; Laboratory of Organic Geochemistry, Tokyo University of Agriculture and Technology
+
+References:
+Endo, S.; Takizawa, R.; Okuda, K.; Takada, H.; Chiba, K.; Kanehiro, H.; Ogi, H.; Yamashita, R.; Date, T. Concentration of polychlorinated biphenyls (PCBs) in beached resin pellets: Variability among individual particles and regional differences. Marine Pollution Bulletin. 2005, 50 (10), 1103-1114.
+
+Ogata, Y.; Takada, H.; Mizukawa, K.; Hirai, H.; Iwasa, S.; Endo, S.; Mato, Y.; Saha, M.; Okuda, K.; Nakashima, A.; Murakami, 
+M.; Zurcher, N.; Booyatumanondo, R.; Zakaria, M. P.; Dung, L. Q.; Gordon, M.; Miguez, C.; Suzuki, S.; Moore, C.; Karapanagioti, H. K.; Weerts, S.; McClurg, T.; Burres, E.; Smith, W.; Van Velkenburg, M.; Lang, J. S.; Lang, R. C.; Laursen, D.; Danner, B.; Stewardson, N.; Thompson, R. C. International Pellet Watch: Global monitoring of persistent organic pollutants (POPs) in coastal Waters. 1. Initial phase data on PCBs, DDTs, and HCHs. Marine Pollution Bulletin. 2009, 58 (10), 1437-1446.
+
+Lohmann, R.; Muir, D. Global Aquatic Passive Sampling (AQUA-GAPS): Using Passive Samplers to Monitor POPs in the Waters of the World1. Environmental Science & Technology. 2010, 44 (3), 860-864.
+
+Smedes, F.; Geertsma, R. W.; van der Zande, T.; Booij, K. Polymer-Water Partition Coefficients of Hydrophobic Compounds for Passive Sampling: Application of Cosolvent Models for Validation. Environmental Science & Technology. 2009, 43 (18), 7047-7054.
