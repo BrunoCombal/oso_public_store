@@ -7,7 +7,7 @@
                  xmlns:geonet="http://www.fao.org/geonetwork"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <gmd:fileIdentifier>
-      <gco:CharacterString>ab150919-d39e-42da-86dc-dd6f9676d8fa</gco:CharacterString>
+      <gco:CharacterString>740419c0-0028-4f5c-8562-4fd7ab8bcccc</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:characterSet>
       <gmd:MD_CharacterSetCode codeListValue="utf8"
@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-11T14:43:16</gco:DateTime>
+      <gco:DateTime>2014-07-21T15:56:35</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -113,12 +113,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>DHM frequency level 2, decade 2010, RCP 4.5</gco:CharacterString>
+                  <gco:CharacterString>DHM frequency level 2, decade 2020, RCP 4.5</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-01-11T11:15:00</gco:DateTime>
+                        <gco:DateTime>2014-01-11T12:15:00</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeListValue="publication"
@@ -133,10 +133,10 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Number of years in decade 2010 (2010 to 2019) with DHM above SST climatology by 2°C (in a four month rolling window), under IPCC RCP 4.5</gco:CharacterString>
+            <gco:CharacterString>Number of years in decade 2020 (2020 to 2029) with DHM above SST climatology by 2°C (in a four month rolling window), under IPCC RCP 4.5</gco:CharacterString>
          </gmd:abstract>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue=""
+            <gmd:MD_ProgressCode codeListValue="completed"
                                  codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
@@ -155,6 +155,9 @@
                      <gmd:address>
                         <gmd:CI_Address>
                            <gmd:electronicMailAddress>
+                              <gco:CharacterString>b.combal@unesco.org</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                           <gmd:electronicMailAddress>
                               <gco:CharacterString>bruno.combal@unesco.org</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
@@ -170,13 +173,13 @@
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Bruno Combal</gco:CharacterString>
+                  <gco:CharacterString>Albert Fischer</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
                   <gco:CharacterString>IOC-UNESCO</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:positionName>
+                  <gco:CharacterString>Head of OOS</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
@@ -208,7 +211,7 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>bruno.combal@unesco.org</gco:CharacterString>
+                              <gco:CharacterString>a.fischer@unesco.org</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -263,10 +266,7 @@
                   <gco:CharacterString>DHM</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Degree Heating Month</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Climate change</gco:CharacterString>
+                  <gco:CharacterString>Degree Heating month</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>RCP 4.5</gco:CharacterString>
@@ -315,8 +315,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d106185e433a1052958">
-                           <gml:beginPosition>2010-01-01</gml:beginPosition>
-                           <gml:endPosition>2019-12-31</gml:endPosition>
+                           <gml:beginPosition>2020-01-01</gml:beginPosition>
+                           <gml:endPosition>2029-12-31</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -343,8 +343,12 @@
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>DHM projections are computed by comparing the ensemble mean of SST projections from CMIP5 models outputs (for IPCC scenarios RCP 4.5 and RCP 8.5) to Reynolds climatology.
+The DHM is defined as the accumulation, over a time period of 4 months, of temperature differences between models projections and Reynolds climatology (only positive difference, i.e. projection temperature above climatology, are accounted).
+A yearly DHM corresponds to the maximum 4-month-DHM observed in the year. A level 2 DHM corresponds the 4-month-DHM equal to or above 2°C. The level 2 frequency corresponds to the number of occurrence of yearly level 2 in 10 years.
+
+Source code for producing the dataset is found on https://github.com/BrunoCombal/climate. Feel free to fork the code.</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -371,10 +375,10 @@
                         <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>dhm_frequency_lvl2_2010_rcp45_v1.zip</gco:CharacterString>
+                        <gco:CharacterString>dhm_frequency_lvl2_2020_rcp45_v1.zip</gco:CharacterString>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Zipped data package, including the data set (geotiff) and meta-information.</gco:CharacterString>
+                        <gco:CharacterString>Zipped packed file, with geotif and meta-information</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -391,10 +395,10 @@
                         <gco:CharacterString>OGC:WMS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>ocean:dhm_frequency_lvl2_2010_rcp45</gco:CharacterString>
+                        <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="">dhm_frequency_lvl2_2020_rcp45</gmx:MimeFileType>
                      </gmd:name>
-                     <gmd:description gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:description>
+                        <gco:CharacterString>Direct access to the resource</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -411,7 +415,7 @@
                         <gco:CharacterString>OGC:WCS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>ocean:dhm_frequency_lvl2_2010_rcp45</gco:CharacterString>
+                        <gco:CharacterString>dhm_frequency_lvl2_2020_rcp85</gco:CharacterString>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
                         <gco:CharacterString/>
