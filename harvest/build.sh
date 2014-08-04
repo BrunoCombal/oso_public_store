@@ -10,7 +10,6 @@ declare -A repoList=(['oo']='oo_sea_ice oo_warmpool cumulative_impact debris mes
 
 function getXML(){
     dataDir='/data/public_store'
-    #dirList=('climatechange/sea_ice' 'climatechange/tos' 'climatechange/warmpool' 'cumulative_impact' 'debris' 'lmes_chla' 'lmes_chla_hdf' 'lmes_chla_mean' 'lmes_corals' 'lmes_fisheries' 'lmes_icep' 'lmes_mangroves' 'lmes_nutrients' 'lmes_plastics_modeldistribution' 'lmes_pp' 'lmes_ppd_longterm' 'lmes_productivity' 'lmes_sst' 'mesozooplankton' 'nutrients' 'oo_benthicbiomasschange' 'oo_dhm' 'oo_fisheries' 'oo_fisheries_futurecatch' 'oo_plastics' 'oo_warmpool' 'slr_impact' 'socio_eco')
 
     for irepo in ${!repoList[@]}
     do
@@ -36,10 +35,13 @@ function getXML(){
 }
 # _________________
 function doClean(){
-    for ii in ${harvestDir}/*.xml
+    for iDir in ${!repoList[@]}
     do
-	echo 'removing ' $ii
-	rm -f $ii
+	for ii in ${harvestDir}/${iDir}/*.xml
+	do
+	    echo 'removing ' $ii
+	    rm -f $ii
+	done
     done
 }
 # _________________
