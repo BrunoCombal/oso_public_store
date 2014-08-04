@@ -18,12 +18,12 @@ CSV (comma separated values): lme_governance_analysis_indicators.csv, see fields
 Shapefile "lme_governance_analysis_indicators.shp" has the following fields:
 + LME_NAME: LME name
 + LME_NUMBER: LME number, from 1 to 66
-+ engt_score: Engagement Score, from 0 to 100
-+ engt_categ: Engagment Category (see categories below)
-+ compl_score: Completeness Score, from 0 to 100
-+ compl_cat: Completeness Category (see categories below)
-+ int_score: Integration score (from 0 to 1.0)
-+ integ_cat: Integration Category (see categories below)
++ engagement: Engagement Score, from 0 to 100
++ eng_risk: Engagment risk (see categories below)
++ compltnss: Completeness Score, from 0 to 100
++ compl_risk: Completeness risk (see categories below)
++ integr: Integration score (from 0 to 1.0)
++ intgr_risk: Integration risk (see categories below)
 
 Categories:
 Integration indicator ranges from 0-1 (low integration to high integration).					 
