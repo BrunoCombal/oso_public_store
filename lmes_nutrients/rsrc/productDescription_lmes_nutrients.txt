@@ -1,0 +1,62 @@
++ Module
+Pollution
+
++ Definition
+LME-scale inputs of nutrients (nitrogen, phosphorus and silica, in different forms) from rivers, and corresponding Indicator of Coastal Eutrophication Potential (ICEP). The N load sub-indicator is a measure of the amount of nitrogen carried by rivers as they enter the land-sea boundary of the LME. Nitrogen is the nutrient generally most limiting to biomass production in coastal waters and the form of N most rapidly used is dissolved inorganic N (DIN – ammonia plus nitrate). DIN is also the form of N which increases the most in rivers, and therefore delivered to LMEs, with increase in human activity. Therefore the N load indicator is based on the river DIN load. DIN and ICEP values are categorized based on the literature and expert knowledge to produce sub-indicator values, and an approach is devised that results in a single merged indicator.
+
+ Acronyms:
+NEWS: Nutrient Exports from Watersheds
+DIN: Dissolved Inorganic Nitrogen
+DON: Dissolved Organic Nitrogen
+PN: Particulate Nitrogen
+DIP: Dissolved Inorganic Phosphorus
+DOP: Dissolved Organic Phosphorus
+PP: Particulate Phosphorus
+DSi: Dissolved Silica
+TN: Total Nitrogen
+TP: Total Phosphorus
+ICEP: Indicator for Coastal Eutrophication Potential
+N-ICEP: Nitrogen ICEP
+P-ICEP Phosphorus ICEP
+Unit
+Total river drainage area (stnbasin_area): km2
+Total river drainage discharge (qact): km3.year-1
+Nutrient Loads: Tg (of N, P or Si) year-1
+ICEP: kg.C.km-2.day-1
+Indicator Categories: unitless (categories 1-5, where 5 is highest impact)
+DIN: Tg.year-1
+DON: Tg.year-1
+PN: Tg.year-1
+DIP: Tg.year-1
+DOP: Tg.year-1
+PP: Tg.year-1
+Dis-SI: Tg.year-1
+Qact: km3.year-1
+N:P molar ratio: unitless
+ICEP: kg.C.km-2.day-1
+N-ICEP: kg.C.km-2.day-1
+P-ICEP: kg.C.km-2.day-1
+
++ Rationale for inclusion
+Land use and human activities in watersheds are affecting nutrients transported by rivers into LMEs. Excess nutrients (nitrogen (N), phosphorus (P), silica (Si)) entering coastal waters of LMEs can result in high biomass algal blooms, leading to hypoxic or anoxic conditions, increased turbidity, and changes in community composition, among other effects. In addition to the amount of nutrients, changes in the ratio of nutrients entering LMEs can result in dominance by algal species (e.g., dinoflagellates) that have deleterious effects (toxic, clog gills of shellfish, etc.) on ecosystems and humans. An overall indicator of coastal eutrophication, based on 2 sub-indicators, was developed. The sub-indicators were based on dissolved inorganic N loading rates and on nutrient ratios.
+Interlinkages with other transboundary water systems
+This study directly builds on the river basin component of the GEF TWAP. The TWAP River Basins component also uses the Global NEWS model and addresses contemporary conditions, and 2030 and 2050 assessments using the same "current trends" scenario to develop a river nutrient pollution indicator. A related project was conducted for the Bay of Bengal LME (BOBLME) which went substantially beyond the TWAP in both the level of spatial detail of nutrient input to the LME (individual river basin information) and in providing N and P source information in the river basins draining into the BOB LME (e.g., sewage, agriculture from crops and from livestock, atmospheric deposition directly to watershed).
+Measurement methods and calculation
+: River nutrient loadings (exports) are based on annual-scale output at river mouths from the Global NEWS 2 model encompassing different nutrient elements (N, P, Si) and forms (dissolved inorganic, dissolved organic, and particulate). This model is driven by spatially distributed, natural and anthropogenic factors within watersheds, including climate, land use, hydrology, human point sources of nutrients (sewage), and nutrient retention and withdrawal in the river network. The Indicator of Coastal Eutrophication Potential is calculated from Global NEWSW 2 river nutrient loadings. All river-basin-scale results are aggregated to the LME scale based on the geographical location of river mouths relative to LME boundaries. Results are not provided for 3 high-latitude LME's, as no corresponding river exports were modelled for these highly glaciated regions.
+
++ Scale
+LME
+
++ Data sources
+Global NEWS 2 model output for river nutrient exports (loadings) to the coast (Beusen et al, 2009; Mayorga et al, 2010; Seitzinger et al, 2010), and the application of the ICEP indicator of coastal eutrophication potential using these nutrient loadings (defined in Garnier et al, 2010; applied for the TWAP LME project using the Global NEWS 2 data).
+Agencies & contacts
+Sybil P. Seitzinger, Study Lead, International Geosphere-Biosphere Program (IGBP), Stockholm, Sweden, sybil.seitzinger@igbp.kva.se
+Emilio Mayorga, Study Collaborator and Data Point of Contact, University of Washington (UW), Seattle, USA, mayorga@apl.washington.edu
+References
+Beusen, A.H.W., A.F. Bouwman, H.H. Dürr, A.L.M. Dekkers and J. Hartmann. 2009. Global patterns of dissolved silica export to the coastal zone: Results from a spatially explicit global model. Global Biogeochemical Cycles, 23, GB0A02, doi:10.1029/2008GB003281
+Garnier, J., A. Beusen, V. Thieu, G. Billen, and L. Bouwman (2010), N:P: Si nutrient export ratios and ecological consequences in coastal seas evaluated by the ICEP approach, Global Biogeochem. Cycles, 24: doi:10.1029/2009GB003583
+Mayorga, E., S.P. Seitzinger, J.A. Harrison, E. Dumont, A.H.W. Beusen, A.F. Bouwman, B.M. Fekete, C. Kroeze and G. Van Drecht. 2010. Global Nutrient Export from WaterSheds 2 (NEWS 2): Model development and implementation. Environmental Modelling & Software 25: 837-853, doi:10.1016/j.envsoft.2010.01.007
+Seitzinger, S.P., E. Mayorga, A.F. ouwman, C. Kroeze, A.H.W. Beusen, G. Billen, G. Van Drecht, E. Dumont, B.M. Fekete, J. Garnier and J.A. Harrison. 2010. Global river nutrient export: A scenario analysis of past and future trends. Global Biogeochemical Cycles 24:GB0A08, doi:10.1029/2009GB003587
+
+
+-- end of file --
