@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-15T15:51:58</gco:DateTime>
+      <gco:DateTime>2014-08-11T13:24:29</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -113,12 +113,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>LMEs nutrients and ICEP</gco:CharacterString>
+                  <gco:CharacterString>Nutrient loading and eutrophication potential</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-01-19T12:00:00</gco:DateTime>
+                        <gco:DateTime>2014-08-11T12:00:00</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeListValue="publication"
@@ -133,7 +133,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Please provide an Abstract</gco:CharacterString>
+            <gco:CharacterString>Land use and human activities in watersheds are affecting nutrients transported by rivers into LMEs. Excess nutrients (nitrogen (N), phosphorus (P), silica (Si)) entering coastal waters of LMEs can result in high biomass algal blooms, leading to hypoxic or anoxic conditions, increased turbidity, and changes in community composition, among other effects.  In addition to the amount of nutrients, changes in the ratio of nutrients entering LMEs can result in dominance by algal species (e.g., dinoflagellates) that have deleterious effects (toxic, clog gills of shellfish, etc.) on ecosystems and humans. An overall indicator of coastal eutrophication, based on 2 sub-indicators, was developed. The sub-indicators were based on dissolved inorganic N loading rates and on nutrient ratios. Definition: LME-scale inputs of nutrients (N, P and Si, in different forms) from rivers, and corresponding Indicator of Coastal Eutrophication Potential (ICEP). The N load sub-indicator is a measure of the amount of nitrogen carried by rivers as they enter the land-sea boundary of the LME.  Nitrogen is the nutrient generally most limiting to biomass production in coastal waters and the form of N most rapidly used is dissolved inorganic N (DIN – ammonia plus nitrate).  DIN is also the form of N which increases the most in rivers, and therefore delivered to LMEs, with increase in human activity.  Therefore the N load indicator is based on the river DIN load. DIN and ICEP values are categorized based on the literature and expert knowledge to produce sub-indicator values, and an approach is devised that results in a single merged indicator.</gco:CharacterString>
          </gmd:abstract>
          <gmd:status>
             <gmd:MD_ProgressCode codeListValue="completed"
@@ -142,10 +142,10 @@
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Sybil Seitzinger</gco:CharacterString>
+                  <gco:CharacterString>Emilio Mayorga</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>International Geosphere-Biosphere Programme (IGBP) Royal Swedish Academy of Sciences</gco:CharacterString>
+                  <gco:CharacterString>University of Washington (UW)</gco:CharacterString>
                </gmd:organisationName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
@@ -155,14 +155,14 @@
                      <gmd:address>
                         <gmd:CI_Address>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>sybil.seitzinger@igbp.kva.se</gco:CharacterString>
+                              <gco:CharacterString>mayorga@apl.washington.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="originator"
+                  <gmd:CI_RoleCode codeListValue="pointOfContact"
                                    codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
@@ -170,7 +170,7 @@
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded"
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="notPlanned"
                                                    codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
@@ -204,7 +204,16 @@
                   <gco:CharacterString>LMEs</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>nutrients</gco:CharacterString>
+                  <gco:CharacterString>Global NEWS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>nutrients loading</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>eutrophication</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>river inputs</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>ICEP</gco:CharacterString>
@@ -222,12 +231,13 @@
                                           codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:otherConstraints>
-                  <gco:CharacterString>geossDataCore</gco:CharacterString>
+                  <gco:CharacterString>geossDataCore
+We request that users of these data cite the original studies, as listed in the References.</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
          <gmd:spatialRepresentationType>
-            <gmd:MD_SpatialRepresentationTypeCode codeListValue="grid"
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"
                                                   codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"/>
          </gmd:spatialRepresentationType>
          <gmd:spatialRepresentationType>
@@ -257,8 +267,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d106185e433a1052958">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
+                           <gml:beginPosition>2000-01-01</gml:beginPosition>
+                           <gml:endPosition>2000-12-31</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -273,20 +283,20 @@
                         <gco:Decimal>-180</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>180</gco:Decimal>
+                        <gco:Decimal>-58.00000000000001</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>-90</gco:Decimal>
+                        <gco:Decimal>-58.00000000000001</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>90</gco:Decimal>
+                        <gco:Decimal>85</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>See the "Measurement methods and calculation" section in the Indicator Description.</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
