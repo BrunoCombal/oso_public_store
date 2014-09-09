@@ -25,10 +25,10 @@ if [ ${#chktmp[*]} -ne 0 ]; then echo "please clean tmp directory and update inf
 #sed -i 's/;/,/g' ${dataOut} # replace ; with ,
 
 # copy shapefiles and csv
-cp ${path}/lme_nutrient_loading_and_eutrophication_2000.csv ${tmpdir}
+cp ${path}/lme_nutrient_loading_eutrophication_20?0.csv ${tmpdir}
 for ii in shp shx prj qpj dbf
 do
-    cp ${path}/lmes_nutrients_eutrophication.${ii} ${tmpdir}
+    cp ${path}/lmes_nutrients_loading_eutrophication_20?0.${ii} ${tmpdir}
 done
 
 # copy snapshots
@@ -36,7 +36,7 @@ done
 # copy information files
 # rule: all files last change must be from the same day. Else, require the user to update them
 memoDay='None'
-for ii in readme.txt version.txt lmes_nutrients_xml_iso19139.xml productDescription_lmes_nutrients.txt 
+for ii in readme.txt version.txt lmes_nutrients_loading_eutrophication_xml_iso19139.xml productDescription_lmes_nutrients.txt 
 do
     if [ ! -e "${ii}" ]; then
 	echo "information file ${ii} does not exist. Exit."

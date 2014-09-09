@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-08-11T13:24:29</gco:DateTime>
+      <gco:DateTime>2014-09-09T17:13:05</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -133,7 +133,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Land use and human activities in watersheds are affecting nutrients transported by rivers into LMEs. Excess nutrients (nitrogen (N), phosphorus (P), silica (Si)) entering coastal waters of LMEs can result in high biomass algal blooms, leading to hypoxic or anoxic conditions, increased turbidity, and changes in community composition, among other effects.  In addition to the amount of nutrients, changes in the ratio of nutrients entering LMEs can result in dominance by algal species (e.g., dinoflagellates) that have deleterious effects (toxic, clog gills of shellfish, etc.) on ecosystems and humans. An overall indicator of coastal eutrophication, based on 2 sub-indicators, was developed. The sub-indicators were based on dissolved inorganic N loading rates and on nutrient ratios. Definition: LME-scale inputs of nutrients (N, P and Si, in different forms) from rivers, and corresponding Indicator of Coastal Eutrophication Potential (ICEP). The N load sub-indicator is a measure of the amount of nitrogen carried by rivers as they enter the land-sea boundary of the LME.  Nitrogen is the nutrient generally most limiting to biomass production in coastal waters and the form of N most rapidly used is dissolved inorganic N (DIN – ammonia plus nitrate).  DIN is also the form of N which increases the most in rivers, and therefore delivered to LMEs, with increase in human activity.  Therefore the N load indicator is based on the river DIN load. DIN and ICEP values are categorized based on the literature and expert knowledge to produce sub-indicator values, and an approach is devised that results in a single merged indicator.</gco:CharacterString>
+            <gco:CharacterString>Land use and human activities in watersheds are affecting nutrients transported by rivers into LMEs. Excess nutrients (nitrogen (N), phosphorus (P), silica (Si)) entering coastal waters of LMEs can result in high biomass algal blooms, leading to hypoxic or anoxic conditions, increased turbidity, and changes in community composition, among other effects.  In addition to the amount of nutrients, changes in the ratio of nutrients entering LMEs can result in dominance by algal species (e.g., dinoflagellates) that have deleterious effects (toxic, clog gills of shellfish, etc.) on ecosystems and humans. An overall indicator of coastal eutrophication, based on 2 sub-indicators, was developed. The sub-indicators were based on dissolved inorganic N loading rates and on nutrient ratios. Definition: LME-scale inputs of nutrients (nitrogen, phosphorus and silica, in different forms) from rivers, and corresponding nutrient-ratio sub-indicator (the Indicator of Coastal Eutrophication Potential, ICEP). The N load sub-indicator is a measure of the amount of nitrogen carried by rivers as they enter the land-sea boundary of the LME.  Nitrogen is the nutrient generally most limiting to biomass production in coastal waters and the form of N most rapidly used is dissolved inorganic N (DIN – ammonia plus nitrate).  DIN is also the form of N which increases the most in rivers, and therefore delivered to LMEs, with increase in human activity.  Therefore the N load indicator is based on the river DIN load. DIN and ICEP values are categorized based on the literature and expert knowledge to produce sub-indicator values, and an approach is devised that results in a single merged indicator.  Results are provided for the year 2000 and future scenarios for 2030 and 2050.</gco:CharacterString>
          </gmd:abstract>
          <gmd:status>
             <gmd:MD_ProgressCode codeListValue="completed"
@@ -218,6 +218,9 @@
                <gmd:keyword>
                   <gco:CharacterString>ICEP</gco:CharacterString>
                </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Millennium Ecosystem Assessment Scenarios</gco:CharacterString>
+               </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme"
                                           codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
@@ -268,7 +271,7 @@ We request that users of these data cite the original studies, as listed in the 
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d106185e433a1052958">
                            <gml:beginPosition>2000-01-01</gml:beginPosition>
-                           <gml:endPosition>2000-12-31</gml:endPosition>
+                           <gml:endPosition>2050-12-31</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -283,7 +286,7 @@ We request that users of these data cite the original studies, as listed in the 
                         <gco:Decimal>-180</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-58.00000000000001</gco:Decimal>
+                        <gco:Decimal>180</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
                         <gco:Decimal>-58.00000000000001</gco:Decimal>
@@ -334,10 +337,50 @@ We request that users of these data cite the original studies, as listed in the 
                         <gco:CharacterString>OGC:WMS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>lmes:nutrients_icep_LMES66</gco:CharacterString>
+                        <gco:CharacterString>lmes:lmes_nutrients_loading_eutrophication_2000</gco:CharacterString>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>LMEs with underpinning nutrients and ICEP values</gco:CharacterString>
+                        <gco:CharacterString>LMEs with underpinning nutrients and ICEP values, year 2000</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://onesharedocean.org/geoserver/ocean/wms</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>lmes:lmes_nutrients_loading_eutrophication_2030</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>LMEs with underpinning nutrients and ICEP values, year 2030</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://onesharedocean.org/geoserver/ocean/wms</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>lmes:lmes_nutrients_loading_eutrophication_2050</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>LMEs with underpinning nutrients and ICEP values, year 2030</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
