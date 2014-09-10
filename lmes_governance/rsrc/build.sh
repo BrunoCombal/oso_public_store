@@ -53,7 +53,7 @@ else
 fi
 
 # zip all files
-rm -f ${archiveName}
+rm -f ${outdir}/${archiveName}
 
 find ${tmpdir} -name "*" | zip -@ -j ${outdir}/${archiveName}
 
