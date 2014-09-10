@@ -25,7 +25,7 @@ done
 # copy information files
 # rule: all files last change must be from the same day. Else, require the user to update them
 memoDay='None'
-for ii in readme.txt version.txt productDescription_governance.txt lmes_governance_xml_iso_19139.xml
+for ii in readme.txt version.txt productDescription_governance.txt lmes_governance_xml_iso19139.xml
 do
     if [ ! -e "${ii}" ]; then
 	echo "information file ${ii} does not exist. Exit."
