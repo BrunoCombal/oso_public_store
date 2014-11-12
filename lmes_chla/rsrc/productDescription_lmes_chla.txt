@@ -1,0 +1,28 @@
+Category: 
+Ecosystem state
+
+Definition: 
+Primary productivity is the rate of organic matter production by plants (photosynthesis). The bulk of marine primary productivity is carried out by phytoplankton, which can be seen from space due to their photosynthetic pigments (mainly chlorophyll).
+
+Unit: 
+mg.m-3
+
+Rationale for inclusion: 
+Measurement of chlorophyll can be a useful indicator of the growing problem of coastal eutrophication.
+
+Interlinkages with other transboundary water systems: 
+Rivers are a central link in nutrient transfer from watersheds to coastal systems, and resulting eutrophication and water quality degradation in LMEs.
+
+Measurement methods and calculation: 
+Primary productivity estimates originate from ocean color sensors and satellites including the Coastal Zone Color Scanner (CZCS) Sea-viewing Wide Field-of-view Sensor (SeaWiFS), and Moderate Resolution Imaging Spectroradiometer (MODIS-Aqua and MODIS-Terra). A large archive of in situ near surface chlorophyll data, and satellite SST measurements made by Advanced Very High Resolution Radiometer (AVHRR) flown on NOAA satellites is used to quantify spatial and seasonal variability of near-surface chlorophyll and SST. Plankton can also be measured over decadal time scales by continuous plankton recorder systems as deployed by the Sir Alistair Hardy Foundation for Ocean Science (SAHFOS) from commercial vessels of opportunity.
+
+Scale: 
+Globally for all LMEs, Annual trends 1996-2013
+
+Data sources: 
+NOAA’s Northeast Fisheries Science Center, Narragansett Laboratory.
+
+Agencies & contacts: 
+NOAA’s Northeast Fisheries Science Center, Narragansett Laboratory; University of Rhode Island.
+Contact: Jay O’Reilly (jeor123 (at) gmail (dot) com)
+
