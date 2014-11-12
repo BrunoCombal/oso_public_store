@@ -61,6 +61,7 @@ fi
 
 # zip all files
 rm -f ${outdir}/${archiveName}
-find ${tmpdir} -name "*" | zip -@ ${outdir}/${archiveName}
+cd ${tmpdir}
+zip -r ${outdir}/${archiveName} *
 
 # end of script
