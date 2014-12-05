@@ -1,0 +1,25 @@
+Pteropods (Creseis, L. Helicina, L. Retrovera) risk level, for 2010 and projections to 2030 and 2050, for RCP 4.5 and RCP 8.5
+
+Category:
+	Climate and Future Impacts
+
+Definition:
+	Projection of aragonite saturation state and temperature required by different pteropods species (Creseis, L Helicina, L Retroversa). Aragonite saturation state must be greater than 1.
+Projection scenario: IPCC RCP 4.5
+Decade: 2050
+
+Relevance:
+	Indicator of living condition acceptable for each pteropod species.
+
+Methodology: 
+	     To create the indicators, experimental data on the capacity of pteropods to produce their shell under ocean acidification scenarios were coupled with models describing chemical conditions (aragonite saturation state) of the oceans at present, in 2030 and 2050, under an optimistic carbon dioxide emission scenario (Representative Concentration Pathway 4.5) and a pessimistic projection (Representative Concentration Pathway 8.5).
+	     Indicators were classified in five risk levels:
+1: low, 2: medium, 3: high, 4: very high, and 5: critical corresponding to a decrease in shell production of 0-20%, 20-40%, 40-60%, 60-80%, and superior to 80% respectively, compared to the present average specific shell production. For temperature, risk levels were assessed as a function of average surface yearly temperature deviation from the maximum temperature at which organisms from the three species are now found. Finally, the two indicators were combined to calculate the cumulative effect of ocean acidification and global warming.
+
+Data sources:
+     Ruben van hooidonk: Aragonite Saturation State projections under IPCC scenarios RCP 4.5 and RCP 8.5
+
+Partners:
+	Steeve Comeau, PhD
+
+--- end of file ---
