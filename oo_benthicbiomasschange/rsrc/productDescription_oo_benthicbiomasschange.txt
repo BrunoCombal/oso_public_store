@@ -1,0 +1,17 @@
+Category: 
+Climate and Future Impacts;Ecosystems
+
+Definition: 
+This dataset represents projected changes (as percentage) in benthic biomass from contemporary (2006-2015) conditions to the next century (2090-2100). It combines benthic metazoans and bacteria. The projections are under scenario RCP8.5.
+
+Methodology: 
+Seafloor organisms are vital for healthy marine ecosystems, contributing to elemental cycling, benthic remineralisation and ultimately sequestration of carbon. Deep-sea life is primarily reliant on the export flux of particulate organic carbon from the surface ocean for food, but most ocean biogeochemistry models predict global decreases in export flux resulting from 21st century anthropogenically-induced warming. Here we show that decadal-to-century scale changes in carbon export associated with climate change lead to an estimated 5.2% decrease in future (2091-2100) global open ocean benthic biomass under RCP8.5 (reduction of 5.2 Mt C) compared with contemporary conditions (2006-2015). Our projections use multi-model mean export flux estimates from eight fully-coupled earth system models, which contributed to the Coupled Model Intercomparison Project Phase 5, that have been forced by high representative concentration pathways (RCP8.5). These export flux estimates are used in conjunction with published empirical relationships to predict changes in benthic biomass. The polar oceans and some upwelling areas may experience increases in benthic biomass, but most other regions show decreases, with up to 38% reductions in parts of the northeast Atlantic. Our analysis projects a future ocean with smaller sized infaunal benthos, potentially reducing energy transfer rates though benthic multicellular food webs. More than 80% of potential deep-water biodiversity hotspots known around the world, including canyons, seamounts and cold-water coral reefs, are projected to experience negative changes in biomass. These major reductions in biomass may lead to widespread change in benthic ecosystems and the functions and services they provide.
+
+Measurement units: % change
+Cell size: 1 degree
+
+Data sources: 
+Jones, D.O.B., Yool, A., Wei, C.-L., Henson, S.A., Ruhl, H.A., Watson, R.A., Gehlen, M., 2014. Global reductions in seafloor biomass in response to climate change. Global Change Biology. 20 (6):1861–1872. DOI: 10.1111/gcb.12480
+
+Partners: 
+National Oceanography Centre, Southampton, UK (NOC)
