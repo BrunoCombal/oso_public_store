@@ -7,7 +7,7 @@
                  xmlns:geonet="http://www.fao.org/geonetwork"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <gmd:fileIdentifier>
-      <gco:CharacterString>882df606-a307-4802-a356-e20f53026ce8</gco:CharacterString>
+      <gco:CharacterString>af23f444-0990-43d6-a785-07919533c8ad</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:characterSet>
       <gmd:MD_CharacterSetCode codeListValue="utf8"
@@ -16,7 +16,7 @@
   <gmd:contact>
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Bruno Combal</gco:CharacterString>
+            <gco:CharacterString>Ward Appeltans</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
             <gco:CharacterString>IOC-UNESCO</gco:CharacterString>
@@ -29,7 +29,7 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>b.combal@unesco.org</gco:CharacterString>
+                        <gco:CharacterString>info@iobis.org</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -50,7 +50,7 @@
             <gco:CharacterString>IOC-UNESCO</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
-            <gco:CharacterString>Head of OOS</gco:CharacterString>
+            <gco:CharacterString>head of OOS</gco:CharacterString>
          </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-04T15:55:01</gco:DateTime>
+      <gco:DateTime>2015-01-09T16:00:57</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -113,12 +113,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Primary productivity for LMES and Pacific warm pool</gco:CharacterString>
+                  <gco:CharacterString>Number of marine species distribution records</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-07-04</gco:DateTime>
+                        <gco:DateTime>2015-01-09T16:00:00</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeListValue="publication"
@@ -127,13 +127,13 @@
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:presentationForm>
-                  <gmd:CI_PresentationFormCode codeListValue="tableDigital"
+                  <gmd:CI_PresentationFormCode codeListValue="mapDigital"
                                                codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_PresentationFormCode"/>
                </gmd:presentationForm>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Primary productivity is the rate of organic matter production by plants. The bulk of marine Primary Productivity is carried out by phytoplankton, which can be seen from space due to their photosynthetic pigments (chlorophyll).</gco:CharacterString>
+            <gco:CharacterString>OBIS provides the gateway to marine species diversity, distribution and abundance data for global reporting on the status of the ocean, scientific understanding of species evolutionary processes, species conservation policies and forms baseline information for impact assessments and monitoring. OBIS publishes a number of information products such as global maps. These products are updated regularly (±4 times a year), when a new version of the OBIS database is published.</gco:CharacterString>
          </gmd:abstract>
          <gmd:status>
             <gmd:MD_ProgressCode codeListValue="completed"
@@ -142,41 +142,13 @@
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>John E. O'Reilly</gco:CharacterString>
+                  <gco:CharacterString>Ward Appeltans</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Individual Contractor</gco:CharacterString>
+                  <gco:CharacterString>IOC-UNESCO</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:contactInfo>
-                  <gmd:CI_Contact>
-                     <gmd:phone>
-                        <gmd:CI_Telephone/>
-                     </gmd:phone>
-                     <gmd:address>
-                        <gmd:CI_Address>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>jeor123@gmail.com</gco:CharacterString>
-                           </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                     </gmd:address>
-                  </gmd:CI_Contact>
-               </gmd:contactInfo>
-               <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="processor"
-                                   codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
-               </gmd:role>
-            </gmd:CI_ResponsibleParty>
-         </gmd:pointOfContact>
-         <gmd:pointOfContact>
-            <gmd:CI_ResponsibleParty>
-               <gmd:individualName>
-                  <gco:CharacterString>John E. O'Reilly</gco:CharacterString>
-               </gmd:individualName>
-               <gmd:organisationName>
-                  <gco:CharacterString>Individual Contractor</gco:CharacterString>
-               </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:positionName>
+                  <gco:CharacterString>OBIS manager</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
@@ -208,7 +180,7 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>jeor123@gmail.com</gco:CharacterString>
+                              <gco:CharacterString>info@iobis.org</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -251,19 +223,22 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>TWAP</gco:CharacterString>
+                  <gco:CharacterString>OBIS</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>LMEs</gco:CharacterString>
+                  <gco:CharacterString>marine biodiversity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>PP</gco:CharacterString>
+                  <gco:CharacterString>biogeography</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Primary productivity</gco:CharacterString>
+                  <gco:CharacterString>species distribution</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>PPD</gco:CharacterString>
+                  <gco:CharacterString>species diversity</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>species abundance</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme"
@@ -278,7 +253,8 @@
                                           codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:otherConstraints>
-                  <gco:CharacterString>geossDataCore</gco:CharacterString>
+                  <gco:CharacterString>CC-0
+OBIS (YEAR). Global biodiversity indices from the Ocean Biogeographic Information System. Intergovernmental Oceanographic Commission of UNESCO. Web. http://www.iobis.org (consulted on YYYY/MM/DD)</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
@@ -291,7 +267,7 @@
                <gmd:equivalentScale>
                   <gmd:MD_RepresentativeFraction>
                      <gmd:denominator>
-                        <gco:Integer>1000000</gco:Integer>
+                        <gco:Integer>500000</gco:Integer>
                      </gmd:denominator>
                   </gmd:MD_RepresentativeFraction>
                </gmd:equivalentScale>
@@ -301,7 +277,7 @@
             <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
          </gmd:language>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
@@ -309,8 +285,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d106185e433a1052958">
-                           <gml:beginPosition>1998-01-01</gml:beginPosition>
-                           <gml:endPosition>2013-12-31</gml:endPosition>
+                           <gml:beginPosition>1611-01-01</gml:beginPosition>
+                           <gml:endPosition>2014-12-31</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -337,8 +313,8 @@
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>For more maps go to http://www.iobis.org/maps</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -347,7 +323,7 @@
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+                  <gco:CharacterString>OGC:WMC</gco:CharacterString>
                </gmd:name>
                <gmd:version>
                   <gco:CharacterString>1.0</gco:CharacterString>
@@ -359,16 +335,16 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://onesharedocean.org/geoserver/lmes/wms</gmd:URL>
+                        <gmd:URL>http://www.iobis.org/geoserver/OBIS/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=OBIS:hexgrid4,OBIS:country&amp;styles=hexgrid4_n_rainbow7,country&amp;bbox=-180.0,-90.0,180.0,90.0&amp;width=1320&amp;height=660&amp;srs=EPSG:4326&amp;format=application/openlayers</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>OGC:WMS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>lmes:lmes_ppd_longterm_trend</gco:CharacterString>
+                        <gco:CharacterString>OBIS (WMS)</gco:CharacterString>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Slope of the regression line fitted to the primary productivity data.</gco:CharacterString>
+                        <gco:CharacterString>A global map with the number of species distribution records is one of a number of products provided by the OBIS project.</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -379,16 +355,36 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://onesharedocean.org/public_store/lmes_pp</gmd:URL>
+                        <gmd:URL>http://www.iobis.org/geoserver/OBIS/wms?service=WMS&amp;request=GetLegendGraphic&amp;layer=OBIS:hexgrid4&amp;style=hexgrid4_n_rainbow7&amp;width=20&amp;height=20&amp;format=image/png</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
-                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="">lmes_ppd_1.0.zip</gmx:MimeFileType>
+                        <gco:CharacterString>OBIS legend</gco:CharacterString>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Zipped data package</gco:CharacterString>
+                        <gco:CharacterString>Legend for OBIS hexgrid</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.iobis.org/geoserver/OBIS/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=OBIS:hexgrid4&amp;outputFormat=csv&amp;VIEWPARAMS=table:calc_hexgrid4&amp;PROPERTYNAME=id,centre_latitude,centre_longitude,surface_area_in_square_km,geom,n</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WFS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>CSV download</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>CSV download</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
