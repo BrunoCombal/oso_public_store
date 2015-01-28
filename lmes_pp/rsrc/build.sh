@@ -42,7 +42,7 @@ done
 # to be done manually
 
 # copy information files
-for ii in readme.txt metainformation_lmes_ppd_yearly.xml productDescription_lmes_ppd.txt version.txt
+for ii in readme.txt lmes_chla_pp_and_trends_xml_iso19139.xml productDescription_lmes_ppd.txt version.txt
 do
     cp ${rsrc}/${ii} ${tmpdir}
 done
