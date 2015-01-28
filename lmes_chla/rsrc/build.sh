@@ -21,11 +21,11 @@ mkdir -p ${tmpdir}/csv
 # get a copy of original files, and rename them using the lme code
 for ii in ${indir}/*-CHL-M.CSV
 do
-	cp "${ii}" ${tmpdir}/csv/
+    cp "${ii}" ${tmpdir}/csv/
 done
 for ii in ${indir}/*-CHL-Y.CSV
 do
-        cp "${ii}" ${tmpdir}/csv/
+    cp "${ii}" ${tmpdir}/csv/
 done
 
 cp ${indir}/LONG-TERM-MEAN-CHL.CSV ${tmpdir}/csv/
@@ -46,7 +46,7 @@ done
 # to be done manually
 
 # copy information files
-for ii in readme.txt metainformation_lmes_chla_monthly.xml productDescription_lmes_chla.txt version.txt
+for ii in readme.txt lmes_chla_pp_and_trends_xml_iso19139.xml productDescription_lmes_chla.txt version.txt
 do
     cp ${rsrc}/${ii} ${tmpdir}
 done
