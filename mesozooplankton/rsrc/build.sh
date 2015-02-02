@@ -13,13 +13,13 @@ for iroi in australia ne_atlantic ne_pacific northern_benguela nw_pacific southe
 do
 
     if [ -n "${version}" ]; then
-	archiveName=oo_mesozooplankton_${version}_${iroi}.zip
+	archiveName=oo_mesozooplankton_${iroi}_${version}.zip
     else
 	archiveName=oo_mesozooplankton_${iroi}.zip
     fi
 
-    rm -f ${archiveName}
-    zip -j ${archiveName} *${iroi}* mesozooplankton_timeseries.csv
+    rm -f ${outdir}/${archiveName}
+    zip -j ${outdir}/${archiveName} *${iroi}* mesozooplankton_timeseries.csv
 done
 
 
