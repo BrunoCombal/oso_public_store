@@ -1,0 +1,37 @@
+Title: LME, Cumulative Human Impact
+
+Module: Ecosystem Health
+
+Category: Ecosystem health state indicator (Level 1)
+
+Definition:
+This indicator measures the additive cumulative impact of 19 different potential human stressors on 20 different habitat types for assessment year 2013. Stressors include those related to climate change, land-based pollution, commercial fishing, commercial activities, and others such as invasive species. Habitats include intertidal, nearshore, and offshore habitats, both benthic and pelagic.
+
+Unit: Modelled cumulative impact score; individual pressure impact scores
+
+Rationale for inclusion:
+Although assessment of individual stressors is important and informative, there is no place on the planet that experiences fewer than two co-occurring stressors, and most places experience many more than that. To understand the overall picture of how human activities are impacting marine habitats and species, one needs to combine these assessments into a comprehensive, transparent and quantitative assessment.
+
+Interlinkages with other transboundary water systems:
+This indicator is assessed for both LME and Open Ocean systems.
+
+Measurement methods and calculation:
+Halpern et al. 2008a developed the initial methodology for calculating cumulative impacts. The process assesses and maps the intensity of each stressor, then translates those intensities into expected impacts based on habitat-specific vulnerabilities to each stressor type.
+
+Scale:
+Presented at LME, National and high seas regional levels; available at 1km2 resolutions
+
+Data sources:
+See www.nceas.ucsb.edu/globalmarine
+
+Agencies & contacts:
+National Center for Ecological Analysis and Synthesis
+Center for Marine Assessment and Planning
+
+References:
+Halpern et al. 2008a. A global map of human impact on marine ecosystems. Science 319: 948-952
+Halpern et al. 2008b. Managing for cumulative impacts in ecosystem-based management through ocean zoning. Ocean & Coastal Management 51: 203-211.
+Halpern eta l. 2007. Evaluating and ranking the vulnerability of global marine ecosystems to anthropogenic threats. Conservation Biology 21: 1301-1315.
+
+
+--- end of file ---
