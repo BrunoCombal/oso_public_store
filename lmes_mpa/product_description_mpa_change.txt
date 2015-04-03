@@ -1,0 +1,38 @@
+Title:
+Change in marine protected area (MPA) coverage (%)
+
+Module:
+Governance
+
+Category:
+Response, level 1
+
+Definition:
+Change through time in extent of MPAs.
+
+Units:
+1km<sup>2</sup> protected area coverage
+PA establishment over time
+
+Rationale for inclusion:
+Terrestrial and Marine Protected Areas are a key indicator of success towards reaching the 2010 Biodiversity Target implemented by the CBD. 
+
+Interlinkages with other transboundary water systems 
+Not applicable
+
+Measurement methods and calculation:
+This indicator is derived from the World Database on Protected Areas (WDPA), which is considered the most comprehensive global spatial dataset on marine and terrestrial protected areas available. Data is submitted by national governments or approved NGOs in a variety of formats. Data is then processed into a standard GIS format and published online. Boundary data is specifically requested; if not available, information on PA area is used to create buffers around point data. Submitted data represents a range of methodologies and data sources this may lead to inconsistencies in component data sets due to variation in methodologies, along with geographic biases in availability and quality of data. Submitted data are harmonized as far as possible in the global layer. There remain issues related to inconsistencies in reporting between countries and there are limited resources available for systematic ground-truthing to take place.  Does not provide an indicator of PA management effectiveness – data are not currently adequate for this.
+
+Scale:
+Global, from 1982 -2014 
+
+Data sources:
+Global data layer has been compiled by UNEP-WCMC from multiple data sources. The data set is publicly available and considered the best available data source for global Protected Area coverage.
+
+Agencies and contacts:
+UNEP-WCMC (compiled through submissions from national governments and authoritative NGOs), IUCN - WCPA
+
+
+References:
+IUCN and UNEP-WCMC (2010), The World Database on Protected Areas (WDPA): Annual Release [On-line]. Cambridge, UK: UNEP-WCMC. Available at: www.wdpa.org
+
