@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:geonet="http://www.fao.org/geonetwork"
+                 xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>14171754-ecba-11e3-8f76-0800272bd470</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8"
+			     codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+	<gco:CharacterString>Bruno Combal</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+	<gco:CharacterString>IOC-UNESCO</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+	<gmd:CI_Contact>
+	  <gmd:phone>
+	    <gmd:CI_Telephone/>
+	  </gmd:phone>
+	  <gmd:address>
+	    <gmd:CI_Address>
+	      <gmd:electronicMailAddress>
+		<gco:CharacterString>b.combal (at) unesco (dot) org</gco:CharacterString>
+	      </gmd:electronicMailAddress>
+	    </gmd:CI_Address>
+	  </gmd:address>
+	</gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+	<gmd:CI_RoleCode codeListValue="originator"
+			 codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2014-03-17T15:38:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString xmlns:srv="http://www.isotc211.org/2005/srv"
+			 xmlns:gmx="http://www.isotc211.org/2005/gmx">ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString xmlns:srv="http://www.isotc211.org/2005/srv"
+			 xmlns:gmx="http://www.isotc211.org/2005/gmx">1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+	<gmd:RS_Identifier>
+	  <gmd:code>
+	    <gco:CharacterString>WGS 84</gco:CharacterString>
+	  </gmd:code>
+	</gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+	<gmd:CI_Citation>
+	  <gmd:title>
+	    <gco:CharacterString>Long term mean primary productivity for LMEs and Pacific warm pool</gco:CharacterString>
+	  </gmd:title>
+	  <gmd:date>
+	    <gmd:CI_Date>
+	      <gmd:date>
+		<gco:DateTime>2014-06-05</gco:DateTime>
+	      </gmd:date>
+	      <gmd:dateType>
+		<gmd:CI_DateTypeCode codeListValue="publication"
+				     codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"/>
+	      </gmd:dateType>
+	    </gmd:CI_Date>
+	  </gmd:date>
+	  <gmd:edition gco:nilReason="missing">
+	    <gco:CharacterString/>
+	  </gmd:edition>
+	  <gmd:identifier>
+	    <gmd:MD_Identifier>
+	      <gmd:code>
+		<gco:CharacterString>932</gco:CharacterString>
+	      </gmd:code>
+	    </gmd:MD_Identifier>
+	  </gmd:identifier>
+	  <gmd:presentationForm>
+	    <gmd:CI_PresentationFormCode codeListValue="tableDigital"
+					 codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode"/>
+	  </gmd:presentationForm>
+	</gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+	<gco:CharacterString>Estimate of long term Primary productivity mean, from 1996 to 2014</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose gco:nilReason="missing">
+	<gco:CharacterString/>
+      </gmd:purpose>
+      <gmd:status>
+	<gmd:MD_ProgressCode codeListValue="completed"
+			     codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
+      </gmd:status>
+      <gmd:pointOfContact>
+	<gmd:CI_ResponsibleParty>
+	  <gmd:individualName>
+	    <gco:CharacterString>John E. O'Reilly</gco:CharacterString>
+	  </gmd:individualName>
+	  <gmd:organisationName>
+	    <gco:CharacterString>Individual Contractor-Specialist for UNEP and NOAA</gco:CharacterString>
+	  </gmd:organisationName>
+	  <gmd:positionName gco:nilReason="missing">
+	    <gco:CharacterString/>
+	  </gmd:positionName>
+	  <gmd:contactInfo>
+	    <gmd:CI_Contact>
+	      <gmd:phone>
+		<gmd:CI_Telephone>
+		  <gmd:voice gco:nilReason="missing">
+		    <gco:CharacterString/>
+		  </gmd:voice>
+                           <gmd:facsimile gco:nilReason="missing">
+			     <gco:CharacterString/>
+                           </gmd:facsimile>
+		</gmd:CI_Telephone>
+	      </gmd:phone>
+	      <gmd:address>
+		<gmd:CI_Address>
+		  <gmd:deliveryPoint gco:nilReason="missing">
+		    <gco:CharacterString/>
+		  </gmd:deliveryPoint>
+		  <gmd:city gco:nilReason="missing">
+		    <gco:CharacterString/>
+		  </gmd:city>
+		  <gmd:administrativeArea gco:nilReason="missing">
+		    <gco:CharacterString/>
+		  </gmd:administrativeArea>
+		  <gmd:postalCode gco:nilReason="missing">
+		    <gco:CharacterString/>
+		  </gmd:postalCode>
+		  <gmd:country gco:nilReason="missing">
+		    <gco:CharacterString/>
+		  </gmd:country>
+		  <gmd:electronicMailAddress>
+		    <gco:CharacterString>jeor123 (at) gmail (dot) com</gco:CharacterString>
+		  </gmd:electronicMailAddress>
+		</gmd:CI_Address>
+	      </gmd:address>
+	    </gmd:CI_Contact>
+	  </gmd:contactInfo>
+	  <gmd:role>
+	    <gmd:CI_RoleCode codeListValue="owner"
+			     codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+	  </gmd:role>
+	</gmd:CI_ResponsibleParty>
+	
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+	<gmd:MD_MaintenanceInformation>
+	  <gmd:maintenanceAndUpdateFrequency>
+	    <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded"
+					     codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+	  </gmd:maintenanceAndUpdateFrequency>
+	</gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+	<gmd:MD_BrowseGraphic>
+	  <gmd:fileName>
+	    <gco:CharacterString></gco:CharacterString>
+	  </gmd:fileName>
+	  <gmd:fileDescription>
+	    <gco:CharacterString>thumbnail</gco:CharacterString>
+	  </gmd:fileDescription>
+	  <gmd:fileType>
+	    <gco:CharacterString>png</gco:CharacterString>
+	  </gmd:fileType>
+	</gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+	<gmd:MD_BrowseGraphic>
+	  <gmd:fileName>
+	    <gco:CharacterString></gco:CharacterString>
+	  </gmd:fileName>
+	  <gmd:fileDescription>
+	    <gco:CharacterString>large_thumbnail</gco:CharacterString>
+	  </gmd:fileDescription>
+	  <gmd:fileType>
+	    <gco:CharacterString>jpg</gco:CharacterString>
+	  </gmd:fileType>
+	</gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+
+
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+	<gmd:MD_BrowseGraphic>
+	  <gmd:fileName>
+	    <gco:CharacterString></gco:CharacterString>
+	  </gmd:fileName>
+	  <gmd:fileDescription>
+	    <gco:CharacterString>large_thumbnail</gco:CharacterString>
+	  </gmd:fileDescription>
+	  <gmd:fileType>
+	    <gco:CharacterString>jpg</gco:CharacterString>
+	  </gmd:fileType>
+	</gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+
+      <gmd:descriptiveKeywords>
+	<gmd:MD_Keywords>
+	  <gmd:keyword>
+	    <gco:CharacterString>TWAP, LMEs, Large Marine Ecosystems, PP, PPD, Primary productivity, mean</gco:CharacterString>
+	  </gmd:keyword>
+	  <gmd:type>
+	    <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"
+				    codeListValue="theme"/>
+	  </gmd:type>
+	</gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+
+      <gmd:transferOptions>
+	<gmd:MD_DigitalTransferOptions>
+	  <gmd:onLine>
+	    <gmd:CI_OnlineResource>
+	      <gmd:linkage>
+		<gmd:URL></gmd:URL>
+	      </gmd:linkage>
+	      <gmd:protocol>
+		<gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+	      </gmd:protocol>
+	      <gmd:name>
+		<gco:CharacterString>External access</gco:CharacterString>
+	      </gmd:name>
+	      <gmd:description>
+		<gco:CharacterString>Direct download</gco:CharacterString>
+	      </gmd:description>
+	    </gmd:CI_OnlineResource>
+	  </gmd:onLine>
+	</gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+
+
+
+	<gmd:MD_LegalConstraints>
+	  <gmd:useLimitation>
+	    <gco:CharacterString>geossDataCore</gco:CharacterString>
+	  </gmd:useLimitation>
+	  <gmd:useConstraints>
+	    <gmd:MD_RestrictionCode codeListValue="copyright"
+				    codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+	  </gmd:useConstraints>
+	</gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+
+
+
+      <gmd:spatialRepresentationType>
+	<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"
+					      codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"/>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+	<gmd:MD_Resolution>
+	  <gmd:equivalentScale>
+	    <gmd:MD_RepresentativeFraction>
+	      <gmd:denominator>
+		<gco:Integer>1000000</gco:Integer>
+	      </gmd:denominator>
+	    </gmd:MD_RepresentativeFraction>
+	  </gmd:equivalentScale>
+	</gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language gco:nilReason="missing">
+	<gco:CharacterString/>
+      </gmd:language>
+      <gmd:characterSet>
+	<gmd:MD_CharacterSetCode codeListValue="utf8"
+				 codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+	<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+	<gmd:EX_Extent>
+	  <gmd:temporalElement>
+	    <gmd:EX_TemporalExtent>
+	      <gmd:extent>
+		<gml:TimePeriod gml:id="d1e435a1049886">
+		  <gml:beginPosition>1996-11-01</gml:beginPosition>
+		  <gml:endPosition>2014-02-14</gml:endPosition>
+		</gml:TimePeriod>
+	      </gmd:extent>
+	    </gmd:EX_TemporalExtent>
+	  </gmd:temporalElement>
+	</gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+	<gmd:EX_Extent>
+	  <gmd:geographicElement>
+	    <gmd:EX_GeographicBoundingBox>
+	      <gmd:westBoundLongitude>
+		<gco:Decimal>-180</gco:Decimal>
+	      </gmd:westBoundLongitude>
+	      <gmd:eastBoundLongitude>
+		<gco:Decimal>180</gco:Decimal>
+	      </gmd:eastBoundLongitude>
+	      <gmd:southBoundLatitude>
+		<gco:Decimal>-90</gco:Decimal>
+	      </gmd:southBoundLatitude>
+	      <gmd:northBoundLatitude>
+		<gco:Decimal>90</gco:Decimal>
+	      </gmd:northBoundLatitude>
+	    </gmd:EX_GeographicBoundingBox>
+	  </gmd:geographicElement>
+	</gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+	<gco:CharacterString></gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:transferOptions>
+	<gmd:MD_DigitalTransferOptions>
+	  <gmd:onLine>
+	    <gmd:CI_OnlineResource>
+	      <gmd:linkage>
+		<gmd:URL></gmd:URL>
+	      </gmd:linkage>
+	      <gmd:protocol>
+		<gco:CharacterString></gco:CharacterString>
+	      </gmd:protocol>
+	      <gmd:name>
+		<gco:CharacterString></gco:CharacterString>
+	      </gmd:name>
+	      <gmd:description>
+		<gco:CharacterString></gco:CharacterString>
+	      </gmd:description>
+	    </gmd:CI_OnlineResource>
+	  </gmd:onLine>
+	</gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+	<gmd:MD_DigitalTransferOptions>
+	  <gmd:onLine>
+	    <gmd:CI_OnlineResource>
+	      <gmd:linkage>
+		<gmd:URL>http://onesharedocean.org/public_store/geoserver/lmes/wms</gmd:URL>
+	      </gmd:linkage>
+	      <gmd:protocol>
+		<gco:CharacterString>OGC:WMS</gco:CharacterString>
+	      </gmd:protocol>
+	      <gmd:name>
+		<gco:CharacterString>lmes:lmes_ppd_mean</gco:CharacterString>
+	      </gmd:name>
+	      <gmd:description>
+		<gco:CharacterString>Primary productivity mean from long term time series</gco:CharacterString>
+	      </gmd:description>
+	    </gmd:CI_OnlineResource>
+	  </gmd:onLine>
+	</gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+	<gmd:DQ_Scope>
+	  <gmd:level>
+	    <gmd:MD_ScopeCode codeListValue="dataset"
+			      codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode"/>
+	  </gmd:level>
+	</gmd:DQ_Scope>
+      </gmd:scope>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+
