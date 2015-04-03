@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-31T17:28:44</gco:DateTime>
+      <gco:DateTime>2014-07-31T17:52:31</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -113,7 +113,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Template TWAP Vector/raster - EmptyPersistent Organic Pollutants (POPs) in plastic resin pellets</gco:CharacterString>
+                  <gco:CharacterString>Persistent Organic Pollutants (POPs) in plastic resin pellets</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>

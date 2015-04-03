@@ -22,6 +22,8 @@ do
     cp ${path}/lmes_pops.${iext} ${tmpdir}
 done
 
+cp ${path}/lmes_pops_conc_average.xlsx ${tmpdir}
+
 # copy information files
 # rule: all files last change must be from the same day. Else, require the user to update them
 memoDay='None'
@@ -44,7 +46,6 @@ do
 done
 
 version=$(cat ${tmpdir}/version.txt | grep -i version | head -n 1 | cut -d ':' -f 2 | tr -d '[:space:]')
-
 
 if [ -n "${version}" ]; then
     archiveName=lmes_pops_${version}.zip
