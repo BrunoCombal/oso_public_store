@@ -1,0 +1,33 @@
+Title: LMEs, Ocean Health Index (OHI)
+
+Module: Ecosystem Health
+
+Category: Ecosystem health state indicator (level 1)
+
+Definition:
+The Ocean Health Index is comprised of 10 publically-held values and goals for healthy and vibrant marine ecosystems, with health defined as the sustainable delivery of the full range of benefits to people now and in the future.
+
+Unit: Scores scaled 0 to 100, with 100 being defined as the optimal, fully-sustainable level of delivery of each goal.
+
+Rationale for inclusion:
+The condition, or health, of marine systems is most often defined by policy and stakeholder groups as the status of socio-ecological coupled systems. As such, one needs a comprehensive measure that captures the full range of issues and values that define these coupled systems, and that provides those measures in a quantitative, transparent and repeatable manner.
+
+Interlinkages with other transboundary water systems: This indicator is assessed for both LME and Open Ocean systems.
+
+Measurement methods and calculation:
+The downloadable dataset provides all input data for measures of status, pressures and resilience for each of 10 different goals for healthy oceans, as well as results by goal and overall Index for each LME and high seas region. LME scores are the area-weight average of component EEZ scores.
+
+Scale:
+National scale and high seas regions; was reported at LME scale by area-weighted component EEZ scores.
+
+Data sources:
+See www.ohi-science.org
+
+Agencies & contacts:
+National Center for Ecological Analysis and Synthesis Center for Marine Assessment and Planning Conservation International
+
+References:
+Halpern et al. 2012. An index to assess the health and benefits of the global ocean. Nature 488: 952-961. Halpern et al. in review. Patterns and emerging trends in global ocean health. PLoS One.
+
+
+--- end of file ---
