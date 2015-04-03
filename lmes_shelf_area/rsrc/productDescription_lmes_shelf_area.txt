@@ -1,0 +1,28 @@
+Category:
+General information
+
+Definition:
+Shelf area in an LME, according to GEBCO (General Bathymetric Chart of the Oceans)
+
+Unit:
+km2
+
+Rationale for inclusion:
+
+Interlinkages with other transboundary water systems:
+
+Measurement methods and calculation:
+
+Scale:
+
+Data sources
+
+Sea Around Us
+
+Agencies & contacts
+
+UBC Sea Around Us project, FishBase, SeaLifeBase
+
+References:
+
+--- end of file ---
