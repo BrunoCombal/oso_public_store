@@ -1,101 +1,67 @@
-LME no,Engagement score,Engagement categories,Completeness score,Completeness categories,integration score,Integration categories
-30,69,H,47,M,0.1 ,VL
-61,59,M,70,H,1.0 ,VH
-32,86, VH ,45,M,0.1 ,VL
-39,80, VH ,51,M,0.1 ,VL
-23,65,H,61,H,0.1 ,VL
-20,75,H,74,H,1.0 ,VH
-34,87, VH ,50,M,0.1 ,VL
-55,100, VH ,67,H,1.0 ,VH
-29,71,H,80,H,1.0 ,VH
-62,74,H,77,H,0.1 ,VL
-3,89, VH ,50,M,0.0 ,VL
-18,80, VH ,72,H,1.0 ,VH
-66,75,H,77,H,1.0 ,VH
-27,80, VH ,46,M,0.2 ,L
-12,68,H,60,M,0.2 ,L
-24,59,M,74,H,1.0 ,VH
-64,78,H,73,H,1.0 ,VH
-1,93, VH ,70,H,1.0 ,VH
-47,83, VH ,43,M,0.1 ,VL
-60,71,H,77,H,1.0 ,VH
-19,75,H,74,H,1.0 ,VH
-28,78,H,54,M,0.2 ,L
-5,81, VH ,58,M,0.2 ,L
-35,75,H,50,M,0.1 ,VL
-13,88, VH ,68,H,1.0 ,VH
-25,41,M,74,H,1.0 ,VH
-59,90, VH ,78,H,0.1 ,VL
-38,56,M,52,M,0.1 ,VL
-49,88, VH ,56,M,0.3 ,L
-26,85, VH ,78,H,1.0 ,VH
-9,63,H,50,M,0.0 ,VL
-54,100, VH ,69,H,1.0 ,VH
-17,74,H,58,M,0.2 ,L
-22,62,H,73,H,0.1 ,VL
-7,75,H,49,M,0.0 ,VL
-21,83, VH ,76,H,0.1 ,VL
-51,100, VH ,30,L,0.3 ,L
-11,85, VH ,65,H,0.1 ,VL
-99,64,H,51,M,1.0 ,VH
-14,58,M,82,VH,0.2 ,L
-33,65,H,52,M,0.2 ,L
-8,63,H,50,M,0.0 ,VL
-50,88, VH ,30,L,0.5 ,M
-52,100, VH ,38,L,0.9 ,VH
-15,100, VH ,36,L,0.0 ,VL
-36,68,H,50,M,0.1 ,VL
-6,81, VH ,65,H,0.2 ,L
-37,71,H,50,M,0.1 ,VL
-53,100, VH ,60,M,1.0 ,VH
-48,83, VH ,33,L,0.5 ,M
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+LME number,LME name,Engagement,Engagement risk,Completeness,Completeness risk,Integration,Integration risk
+30,Agulhas -Somali Current, 69 ,L,47,M,0.1,VH
+61,Antarctica, 59 ,M,70,L,1,VL
+32,Arabian Sea, 86 , VL ,45,M,0.1,VH
+23,Baltic Sea, 65 ,L,61,L,0.1,VH
+20,Barents Sea , 75 ,L,74,L,0.1,VH
+34,Bay of Bengal, 87 , VL ,50,M,0.1,VH
+55,Beaufort Sea, 100 , VL ,67,L,1,VL
+29,Benguela Current, 93 , VL ,80,L,1,VL
+62,Black Sea, 74 ,L,77,L,0.1,VH
+3,California Current , 50 ,M,50,M,0,VH
+18,Canadian Eastern Arctic - West Greenland , 80 ,L,72,L,1,VL
+66,Canadian High Arctic North Greenland Shelf, 75 ,L,77,L,1,VL
+27,Canary Current, 69 ,L,46,M,0.2,VH
+12,Caribbean Sea, 53 ,M,60,M,0.2,VH
+24,Celtic-Biscay Shelf, 59 ,M,74,L,1,VL
+64,Central Arctic Ocean , 72 ,L,73,L,1,VL
+1,East Bering Sea , 83 , VL ,70,L,0.1,VH
+47,East China Sea, 83 , VL ,43,M,0.1,VH
+60,Faroe Plateau , 71 ,L,77,L,1,VL
+19,Greenland Sea, 75 ,L,74,L,0.1,VH
+28,Guinea Current, 56 ,M,54,M,0.2,VH
+5,Gulf of Mexico, 71 ,L,58,M,0.2,VH
+35,Gulf of Thailand , 75 ,L,50,M,0.1,VH
+13,Humboldt Current, 50 ,M,68,L,1,VL
+25,Iberian Coastal, 41 ,M,74,L,1,VL
+59,Iceland Shelf, 90 , VL ,78,L,0.1,VH
+38,Indonesian Sea, 56 ,M,52,M,0.1,VH
+49,Kuroshio Current , 50 ,M,56,M,0.3,H
+26,Mediterranean, 85 , VL ,78,L,1,VL
+9,Newfoundland-Labrador Shelf , 63 ,L,50,M,0,VH
+39,North Australian Shelf , 80 ,L,51,M,0.1,VH
+54,North Bering - Chukchi Sea , 88 , VL ,69,L,1,VL
+17,North Brazil Shelf, 64 ,L,58,M,0.2,VH
+22,North Sea, 62 ,L,73,L,0.1,VH
+7,Northeast US Continental Shelf , 75 ,L,49,M,0,VH
+21,Norwegian Sea, 83 , VL ,76,L,0.1,VH
+51,Oyashio Current , 100 , VL ,30,H,0.3,H
+11,Pacific Central American Coastal , 53 ,M,65,L,0.1,VH
+99,Pacific Warm Pool, 57 ,M,51,M,1,VL
+14,Patagonian Shelf , 50 ,M,82,VL,0.2,VH
+33,Red Sea, 65 ,L,52,M,0.2,VH
+8,Scotian Shelf, 63 ,L,50,M,0,VH
+50,Sea of Japan , 88 , VL ,30,H,0.5,M
+52,Sea of Okhotsk , 100 , VL ,38,H,0.9,VL
+15,South Brazil Shelf , 100 , VL ,36,H,0,VH
+36,South China Sea, 68 ,L,50,M,0.1,VH
+6,Southeast U.S. Continental Shelf , 58 ,M,65,L,0.2,VH
+37,Sulu-Celebes Sea, 71 ,L,50,M,0.1,VH
+53,West Bering Sea , 100 , VL ,60,M,0.3,H
+48,Yellow Sea, 67 ,L,33,H,0.5,M
+2,Gulf of Alaska ,,,,,,
+4,Gulf of California ,,,,,,
+10,Insular Pacific-Hawaiian ,,,,,,
+16,East Brazil Shelf ,,,,,,
+40,Northeast Australia Shelf,,,,,,
+41,East-Central Australian Shelf ,,,,,,
+42,Southeast Australian Shelf ,,,,,,
+43,Southwest Australian Shelf ,,,,,,
+44,West-Central Australian Shelf ,,,,,,
+45,Northwest Australian Shelf ,,,,,,
+46,New Zealand Shelf ,,,,,,
+56,East Siberian Sea ,,,,,,
+57,Laptev Sea ,,,,,,
+58,Kara Sea ,,,,,,
+63,Hudson Bay ,,,,,,
+65,Aleutian Islands,,,,,,
