@@ -46,7 +46,7 @@ do
 done
 
 if [ -n "${version}" ]; then
-    archiveName=lmes_socioeco_pop_nldi_hdi${version}.zip
+    archiveName=lmes_socioeco_pop_nldi_hdi_${version}.zip
 else
     archiveName=lmes_socioeco_pop_nldi_hdi.zip
 fi
