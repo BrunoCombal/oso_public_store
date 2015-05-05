@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-11T14:47:06</gco:DateTime>
+      <gco:DateTime>2015-01-29T11:08:01</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -340,8 +340,12 @@
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>DHM projections are computed by comparing the ensemble mean of SST projections from CMIP5 models outputs (for IPCC scenarios RCP 4.5 and RCP 8.5) to Reynolds climatology.
+The DHM is defined as the accumulation, over a time period of 4 months, of temperature differences between models projections and Reynolds climatology (only positive difference, i.e. projection temperature above climatology, are accounted). 
+A yearly DHM corresponds to the maximum 4-month-DHM observed in the year. A level 2 DHM corresponds the 4-month-DHM equal to or above 2°C. The level 2 frequency corresponds to the number of occurrence of yearly level 2 in 10 years.
+
+Source code for producing the dataset is found on https://github.com/BrunoCombal/climate. Feel free to fork the code.</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -388,7 +392,7 @@
                         <gco:CharacterString>OGC:WMS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="">dhm_frequency_lvl2_2020_rcp85</gmx:MimeFileType>
+                        <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="">ocean:dhm_frequency_lvl2_2020_rcp85</gmx:MimeFileType>
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString>Direct access to the resource</gco:CharacterString>
@@ -408,7 +412,7 @@
                         <gco:CharacterString>OGC:WCS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>dhm_frequency_lvl2_2020_rcp85</gco:CharacterString>
+                        <gco:CharacterString>ocean:dhm_frequency_lvl2_2020_rcp85</gco:CharacterString>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
                         <gco:CharacterString/>

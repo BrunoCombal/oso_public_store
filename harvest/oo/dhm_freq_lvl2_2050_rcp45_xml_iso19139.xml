@@ -36,7 +36,7 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="custodian"
+            <gmd:CI_RoleCode codeListValue="originator"
                              codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-10T16:53:53</gco:DateTime>
+      <gco:DateTime>2015-01-29T11:11:01</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -162,61 +162,8 @@
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="processor"
+                  <gmd:CI_RoleCode codeListValue="originator"
                                    codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
-               </gmd:role>
-            </gmd:CI_ResponsibleParty>
-         </gmd:pointOfContact>
-         <gmd:pointOfContact>
-            <gmd:CI_ResponsibleParty>
-               <gmd:individualName>
-                  <gco:CharacterString>Bruno Combal</gco:CharacterString>
-               </gmd:individualName>
-               <gmd:organisationName>
-                  <gco:CharacterString>IOC-UNESCO</gco:CharacterString>
-               </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:positionName>
-               <gmd:contactInfo>
-                  <gmd:CI_Contact>
-                     <gmd:phone>
-                        <gmd:CI_Telephone>
-                           <gmd:voice gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:voice>
-                           <gmd:facsimile gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:facsimile>
-                        </gmd:CI_Telephone>
-                     </gmd:phone>
-                     <gmd:address>
-                        <gmd:CI_Address>
-                           <gmd:deliveryPoint gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:deliveryPoint>
-                           <gmd:city gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:city>
-                           <gmd:administrativeArea gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:administrativeArea>
-                           <gmd:postalCode gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:postalCode>
-                           <gmd:country gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:country>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>bruno.combal@gmail.com</gco:CharacterString>
-                           </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                     </gmd:address>
-                  </gmd:CI_Contact>
-               </gmd:contactInfo>
-               <gmd:role>
-                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"
-                                   codeListValue="pointOfContact"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
@@ -344,7 +291,11 @@
             </gmd:EX_Extent>
          </gmd:extent>
          <gmd:supplementalInformation>
-            <gco:CharacterString>Source code for producing the dataset is found on https://github.com/BrunoCombal/climate. Feel free to fork the code.</gco:CharacterString>
+            <gco:CharacterString>DHM projections are computed by comparing the ensemble mean of SST projections from CMIP5 models outputs (for IPCC scenarios RCP 4.5 and RCP 8.5) to Reynolds climatology.
+The DHM is defined as the accumulation, over a time period of 4 months, of temperature differences between models projections and Reynolds climatology (only positive difference, i.e. projection temperature above climatology, are accounted).
+A yearly DHM corresponds to the maximum 4-month-DHM observed in the year. A level 2 DHM corresponds the 4-month-DHM equal to or above 2°C. The level 2 frequency corresponds to the number of occurrence of yearly level 2 in 10 years.
+
+Source code for producing the dataset is found on https://github.com/BrunoCombal/climate. Feel free to fork the code.</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>

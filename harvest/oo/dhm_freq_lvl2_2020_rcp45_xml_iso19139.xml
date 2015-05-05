@@ -36,7 +36,7 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="custodian"
+            <gmd:CI_RoleCode codeListValue="originator"
                              codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
@@ -95,7 +95,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-      <gco:DateTime>2014-07-11T15:01:21</gco:DateTime>
+      <gco:DateTime>2015-01-29T11:06:09</gco:DateTime>
   </gmd:dateStamp>
   <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
@@ -157,6 +157,9 @@
                            <gmd:electronicMailAddress>
                               <gco:CharacterString>b.combal@unesco.org</gco:CharacterString>
                            </gmd:electronicMailAddress>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>bruno.combal@unesco.org</gco:CharacterString>
+                           </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
@@ -170,13 +173,13 @@
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Bruno Combal</gco:CharacterString>
+                  <gco:CharacterString>Albert Fischer</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
                   <gco:CharacterString>IOC-UNESCO</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:positionName>
+                  <gco:CharacterString>Head of OOS</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
@@ -208,7 +211,7 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>b.combal@unesco.org</gco:CharacterString>
+                              <gco:CharacterString>a.fischer@unesco.org</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -340,8 +343,12 @@
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>DHM projections are computed by comparing the ensemble mean of SST projections from CMIP5 models outputs (for IPCC scenarios RCP 4.5 and RCP 8.5) to Reynolds climatology.
+The DHM is defined as the accumulation, over a time period of 4 months, of temperature differences between models projections and Reynolds climatology (only positive difference, i.e. projection temperature above climatology, are accounted).
+A yearly DHM corresponds to the maximum 4-month-DHM observed in the year. A level 2 DHM corresponds the 4-month-DHM equal to or above 2°C. The level 2 frequency corresponds to the number of occurrence of yearly level 2 in 10 years.
+
+Source code for producing the dataset is found on https://github.com/BrunoCombal/climate. Feel free to fork the code.</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -388,7 +395,7 @@
                         <gco:CharacterString>OGC:WMS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="">dhm_frequency_lvl2_2020_rcp45</gmx:MimeFileType>
+                        <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="">ocean:dhm_frequency_lvl2_2020_rcp45</gmx:MimeFileType>
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString>Direct access to the resource</gco:CharacterString>
@@ -408,7 +415,7 @@
                         <gco:CharacterString>OGC:WCS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>dhm_frequency_lvl2_2020_rcp85</gco:CharacterString>
+                        <gco:CharacterString>ocean:dhm_frequency_lvl2_2020_rcp45</gco:CharacterString>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
                         <gco:CharacterString/>
