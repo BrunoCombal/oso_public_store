@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+To display several data set from the meta-information page
+-->
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="fr" />
+ <meta name="author" content="Bruno Combal" />
+ <title>
+   Nutrient ratio (current, 2030, 2050)
+ </title>
+ <style>
+  body{
+    font-family: Verdana, sans-serif;
+  }
+  h1 {
+    font-size:16px;
+  }
+  h2 {
+    font-size:12px;
+  }
+ </style>
+</head>
+<body>
+<h1>Nutrient ratios (current, 2030, 2050)</h1>
+Navigate maps (pan, zoom in and out), click on LMEs to read attached values. Fields description is found in the meta-information. Please allow some time to load maps.
+<h2>Nutrient ratio (current)</h2>
+<iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+<br/>
+<h2>Nutrient ratio (2030)</h2>
+<iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+<br/>
+<h2>Nutrient ratio (2050)</h2>
+<iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+<br/>
+</body>
+</html>
