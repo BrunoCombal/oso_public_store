@@ -9,7 +9,7 @@ To display several data set from the meta-information page
     <meta http-equiv="Content-Language" content="fr" />
     <meta name="author" content="Bruno Combal" />
     <title>
-      Nutrient ratio (current, 2030, 2050)
+      Nutrient ratios, Nitrogen load and Merged nutrient risk indicator (200, 2030, 2050)
     </title>
     <style>
      body{
@@ -22,8 +22,8 @@ To display several data set from the meta-information page
        font-size:12px;
      }
      #legendRanges {
-       width:400px;
-       margin:auto auto;
+       width:750px;
+       margin:auto 100px;
      }
      #legendRanges ul{
        margin:0;
@@ -33,9 +33,10 @@ To display several data set from the meta-information page
      }
      #legendRanges ul li{
        float:left;
-       padding-left:20px;
-       font:12px Verdana;
-       width:100px;
+       padding:0;
+       margin:0;
+       font:10px Verdana;
+       width:60px;
      }
      .legendText{
        position: relative;
@@ -44,53 +45,52 @@ To display several data set from the meta-information page
     </style>
   </head>
   <body>
-    <h1 align="center">Nutrient ratios, Nitrogen load (2000, 2030, 2050)</h1>
+    <h1 align="center">Nutrient ratios, Nitrogen load and merged nutrient risk indicator(2000, 2030, 2050)</h1>
     Navigate maps (pan, zoom in and out), click on LMEs to read attached values.<br/>Fields description is found in the <a href="/data#241">meta-information</a>.<br/>Please allow some time to load maps.
 <br/><br/>
 <div style="float:left">Legend:</div>
     <div id="legendRanges">
       <ul>
-        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#5FBADD; border: 1px solid #CBCCCB; color:#FFFFFF; text-align:center; font: 10px Arial, sans-serif;"><span style="margin: auto auto;"></span></div> <span class="legendText">Very low</span></li>
-        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#78BB4B; border: 1px solid #CBCCCB; color:#FFFFFF; text-align:center; font: 10px Arial, sans-serif;"><span style="margin: auto auto;"></span></div> <span class="legendText">Low</span></li>
-        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#E4E344; border: 1px solid #CBCCCB; color:#FFFFFF; text-align:center; font: 10px Arial, sans-serif;"><span style="margin: auto auto;"></span></div> <span class="legendText">Medium</span></li>
-        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#EE9F42; border: 1px solid #CBCCCB; color:#FFFFFF; text-align:center; font: 10px Arial, sans-serif;"><span style="margin: auto auto;"></span></div> <span class="legendText">High</span></li>
-        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#D8232A; border: 1px solid #CBCCCB; color:#FFFFFF; text-align:center; font: 10px Arial, sans-serif;"><span style="margin: auto auto;"></span></div> <span class="legendText">Very high</span></li>
-
-        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#CBCCCB; border: 1px solid #CBCCCB; color:#FFFFFF; text-align:center; font: 10px Arial, sans-serif;"><span style="margin: auto auto;"></span></div> <span class="legendText">No data</span></li>
+        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#5FBADD; border: 1px solid #CBCCCB; color:#FFFFFF;"><span style="margin: auto auto;"></span></div><span class="legendText">Very low</span></li>
+        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#78BB4B; border: 1px solid #CBCCCB; color:#FFFFFF;"><span style="margin: auto auto;"></span></div> <span class="legendText">Low</span></li>
+        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#E4E344; border: 1px solid #CBCCCB; color:#FFFFFF;"><span style="margin: auto auto;"></span></div> <span class="legendText">Medium</span></li>
+        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#EE9F42; border: 1px solid #CBCCCB; color:#FFFFFF;"><span style="margin: auto auto;"></span></div> <span class="legendText">High</span></li>
+        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#D8232A; border: 1px solid #CBCCCB; color:#FFFFFF;"><span style="margin: auto auto;"></span></div> <span class="legendText">Very high</span></li>
+        <li><div style="border-radius:50%; width:20px; height:20px; padding:0px; background:#CBCCCB; border: 1px solid #CBCCCB; color:#FFFFFF;"><span style="margin: auto auto;"></span></div> <span class="legendText">No data</span></li>
       </ul>
     </div>
 <div style="clear:both"></div>
 <br/>
 
     <h2>Nutrient ratio (2000)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=&bbox=-180.,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
     <br/>
     <h2>Nutrient ratio (2030)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=&bbox=-180.,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
     <br/>
     <h2>Nutrient ratio (2050)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=&bbox=-180.,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
     <br/>
 
     <hr/>
     <h2>Nitrogen load (2000)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=lmes_ld_din_cat&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=lmes_ld_din_cat&bbox=-180,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
 
     <h2>Nitrogen load (2030)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=lmes_ld_din_cat&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=lmes_ld_din_cat&bbox=-180,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
 
     <h2>Nitrogen load (2050)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=lmes_ld_din_cat&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=lmes_ld_din_cat&bbox=-180,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
 
     <hr/>
     <h2>Merged Nutrient Risk indicator (2000)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=lmes_mergedin_cat&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2000&styles=lmes_mergedin_cat&bbox=-180,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
 
     <h2>Merged Nutrient Risk indicator (2030)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=lmes_mergedin_cat&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2030&styles=lmes_mergedin_cat&bbox=-180,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
 
     <h2>Merged Nutrient Risk indicator (2050)</h2>
-    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=lmes_mergedin_cat&bbox=-180.00000000007876,-85.47028350810217,179.99999999987392,89.99999999966093&width=677&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
+    <iframe src="http://onesharedocean.org/geoserver/lmes/wms?service=WMS&version=1.1.0&request=GetMap&layers=lmes:lmes_nutrients_loading_eutrophication_2050&styles=lmes_mergedin_cat&bbox=-180,-90,180,90&width=660&height=330&srs=EPSG:4326&format=application/openlayers" frameborder=0 seamless="seamless" width="1500px" height="480px"></iframe>
 
   </body>
 </html>
