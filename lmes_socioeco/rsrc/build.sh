@@ -6,11 +6,27 @@
 shopt -s nullglob
 shopt -s dotglob
 
+
+
 path=/data/public_store/lmes_socioeco/
+packages=('climate_threat' 'hdi_nldi' 'revenues' 'pwp')
 rsrcDir=${path}/rsrc
 outdir=${path}/
 tmpdir=${path}/tmp
 mkdir -p ${tmpdir}
+
+
+for ii in ${packages[@]}
+do
+    archive=${path}/lmes_socioeco_${ii}_1.0.zip
+    rm -f ${archive}
+    zip -j ${archive} ${path}/lmes_socioeconomics_database.xlsx 
+    find ${path}/${ii} | zip -j -@ ${archive}
+done
+
+echo "This script hereafter is obsolete"
+exit
+
 
 # some operations should be done manually, including deleting the tmp directory and update information files
 chktmp=(${tmpdir}/*)
